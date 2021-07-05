@@ -7,6 +7,22 @@
 # Inherit from xiaomi sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := kona
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8250/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8250/media
+
+OVERRIDE_QCOM_HARDWARE_VARIANT := sm8250
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+$(LOCAL_PATH) \
+hardware/qcom-caf/kona
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
