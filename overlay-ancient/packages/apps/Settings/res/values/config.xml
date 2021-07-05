@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020 ShapeShiftOS
+     Copyright (C) Aosp Development
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -16,5 +16,13 @@
    <bool name="config_supportsInDisplayFingerprint">true</bool>
       <!-- Whether device has screen off FOD support -->
    <bool name="config_supportScreenOffFod">true</bool>
+       <!-- AncientOS Device Info -->
+    <bool name="config_supportSmartCharging">true</bool>
+    <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Battery Health Node -->
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+	<string name="config_batCurCap">/sys/class/power_supply/bms/charge_full_design</string>
+	<string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
    
 </resources>
