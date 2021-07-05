@@ -17,15 +17,17 @@
 <bool name="config_supportsInDisplayFingerprint">true</bool>
 
 <!-- Whether the device supports Smart Pixels -->
- <bool name="config_enableSmartPixels">true</bool>    
- <!-- If true, the display will be shifted around in ambient mode. -->
+<bool name="config_enableSmartPixels">true</bool>    
+<!-- If true, the display will be shifted around in ambient mode. -->
 <bool name="config_enableBurnInProtection">true</bool>
 
 <!-- Enable face auth only when swiping security view -->
 <bool name="config_faceAuthOnSecurityView">true</bool>
+<!-- Default fod pressed color -->
+<integer name="config_fod_pressed_color">1</integer>
 
-    <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">5</integer>
-    <integer name="config_maxVisibleNotificationIconsOnLock">5</integer>
+<!-- Max visible notification icons -->
+<integer name="config_maxVisibleNotificationIcons">9</integer>
+<integer name="config_maxVisibleNotificationIconsOnLock">9</integer>
     
 </resources>

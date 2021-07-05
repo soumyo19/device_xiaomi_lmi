@@ -1,3 +1,4 @@
+ 
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2020 ShapeShiftOS
@@ -12,9 +13,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-   <!-- Shows the required view for in-display fingerprint -->
-   <bool name="config_supportsInDisplayFingerprint">true</bool>
-      <!-- Whether device has screen off FOD support -->
+   <!-- Whether device has screen off FOD support -->
    <bool name="config_supportScreenOffFod">true</bool>
-   
+
+       <!-- IDs for each color mode. The values must match the corresponding constants in
+         android.view.Display -->
+    <integer-array name="color_mode_ids">
+        <item>0</item>
+        <item>-1</item>
+        <item>-1</item>
+    </integer-array>
+
+    <!-- For Enabling Battery Heath -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- If device supports battery health options -->
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
 </resources>
