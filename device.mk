@@ -7,6 +7,9 @@
 # Inherit from xiaomi sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/commonsys-intf/display
+TARGET_USES_QCOM_MM_AUDIO := true
+
 # Hardware
 PRODUCT_BOARD_PLATFORM := kona
 PRODUCT_USES_QCOM_HARDWARE := true
