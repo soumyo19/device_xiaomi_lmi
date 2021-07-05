@@ -9,6 +9,8 @@
 
 DEVICE_PATH := device/xiaomi/lmi
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
