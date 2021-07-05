@@ -1,0 +1,10 @@
+[
+    {
+        "repository":   "vendor_xiaomi_kona",
+        "target_path":  "vendor/xiaomi/kona"
+    },
+    {
+        "repository":	"Official-Ayrton990/android_kernel_xiaomi_sm8250",
+        "target_path": "kernel/xiaomi/sm8250",
+    }
+]

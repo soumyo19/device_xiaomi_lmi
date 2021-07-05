@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_lmi.mk
+    $(LOCAL_DIR)/octavi_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_lmi-user \
-    ssos_lmi-userdebug \
-    ssos_lmi-eng
+    octavi_lmi-user \
+    octavi_lmi-userdebug \
+    octavi_lmi-eng
