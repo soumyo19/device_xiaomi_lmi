@@ -1,2 +1,5 @@
 # Display
 ro.sf.lcd_density=440
+
+ro.ppui.version=3.7
+ro.ppui.version_code=Ragnarok
