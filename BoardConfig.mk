@@ -16,7 +16,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_SCREEN_DENSITY := 440
 
 # 69hz hz
-BOARD_KERNEL_CMDLINE += msm_drm.framerate_override=2
+BOARD_KERNEL_CMDLINE += msm_drm.framerate_override=1
 
 # Fingerprint
 SOONG_CONFIG_XIAOMI_KONA_FOD_POS_X = 439
