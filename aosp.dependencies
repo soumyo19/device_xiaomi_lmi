@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "PixelPlusUI-Devices/android_device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common"
+    "branch": "PixelPlus"
+  }
+    {
+    "repository": "PixelPlusUI-Devices/device_xiaomi_lmi",
+    "target_path": "device/xiaomi/lmi"
+    "branch": "PixelPlus"
+  }
+  {
+    "repository": "PixelPlusUI-Devices/vendor_xiaomi_lmi",
+    "target_path": "vendor/xiaomi",
+    "branch": "11"
+  }
+]
