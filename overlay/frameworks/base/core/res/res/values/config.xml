@@ -360,5 +360,26 @@
 
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
+    <!-- Shows the required view for in-display fingerprint -->
+<bool name="config_supportsInDisplayFingerprint">true</bool>
+
+<!-- Whether the device supports Smart Pixels -->
+ <bool name="config_enableSmartPixels">true</bool>    
+ <!-- If true, the display will be shifted around in ambient mode. -->
+<bool name="config_enableBurnInProtection">true</bool>
+
+<!-- Enable face auth only when swiping security view -->
+<bool name="config_faceAuthOnSecurityView">true</bool>
+
+    <!-- Whether the always on display mode is available. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">9</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">9</integer>
 
 </resources>
