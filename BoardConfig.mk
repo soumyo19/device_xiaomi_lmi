@@ -15,7 +15,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# 69hz hz
+# 66hz hz
 BOARD_KERNEL_CMDLINE += msm_drm.framerate_override=1
 
 # Fingerprint
